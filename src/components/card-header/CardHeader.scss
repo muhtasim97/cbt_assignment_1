@@ -1,0 +1,108 @@
+@import "../../styles/main.scss";
+
+.p-header-card {
+  width: 266px;
+  height: 134px;
+  background: #ffffff;
+  border-radius: 10px;
+  &__image-paragraph {
+    display: flex;
+    &__image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 40px;
+      background: #f0f0f0;
+      border-radius: 10px;
+
+      margin-top: 16px;
+      margin-left: 20px;
+    }
+    &__paragraph {
+      display: flex;
+      padding-top: 24px;
+      padding-left: 10px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 25px;
+      color: #323335;
+    }
+  }
+  &__count-growth-week {
+    display: flex;
+    justify-content: space-between;
+    &__count {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px !important;
+      line-height: 34px;
+
+      color: #1b1c1e;
+      &__paragraph {
+        padding-left: 20px;
+        padding-top: 33px;
+      }
+    }
+    &__growth-week {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 6px;
+
+      &__growth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        width: 37px;
+        height: 19px;
+        margin-right: 36px;
+        margin-top: 21px;
+        /* Green */
+        &--green {
+          color: #0caf60;
+        }
+        &--red {
+          color: #fa5f1c;
+        }
+        &__paragraph {
+          margin-left: 10.45px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+        }
+        &__image {
+          width: 18px;
+          height: 18px;
+        }
+      }
+
+      &__week {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        margin-right: 20px;
+        margin-bottom: 20px;
+
+        /* Natural 2 */
+
+        color: #4c4d4f;
+      }
+    }
+  }
+}

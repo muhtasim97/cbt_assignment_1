@@ -1,0 +1,137 @@
+@import "../../styles/main.scss";
+.p-header {
+  display: flex;
+  max-width: 1220px;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    &__title {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 34px;
+      color: #262930;
+      margin-bottom: 8px;
+    }
+    &__paragraph {
+      min-width: 389px;
+      height: 19px;
+      margin-right: 280px;
+      
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+
+      color: #858688;
+    }
+  }
+
+  &__middle {
+    
+  
+    &__option-lists {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      gap: 10px;
+
+      width: 150px;
+      height: 42px;
+
+      background: #ffffff;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      &__logo-image {
+      }
+      &__logo-name {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+
+        color: #000000;
+      }
+      &__arrow {
+      }
+    }
+  }
+
+  &__right {
+    display: flex;
+    // margin-top: 30px;
+    margin-left: 42.25px;
+    &__search {
+      width: 36px;
+      height: 36px;
+      background: #ffffff;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &__bell {
+      width: 36px;
+      height: 36px;
+      background: #ffffff;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 32px;
+      margin-right: 26.22px;
+    }
+    &__profile {
+      display: flex;
+      &__picture {
+        img {
+          border-radius: 50%;
+        }
+      }
+      &__name-position {
+        padding-left: 4.06px;
+        &__name {
+          min-width: 80px;
+          height: 19px;
+          margin-bottom: 4px;
+
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+
+          color: #323335;
+        }
+        &__position {
+          min-width: 77px;
+          height: 17px;
+
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          /* identical to box height */
+
+          /* Natural 3 */
+
+          color: #858688;
+        }
+      }
+      &__arrow {
+        // margin-right: 30px;
+      }
+    }
+  }
+}

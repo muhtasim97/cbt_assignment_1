@@ -1,0 +1,79 @@
+@import "../../styles/main.scss";
+
+.p-person-card {
+  padding-top: 9px;
+  padding-left: 20px;
+  &__body-first {
+    display: flex;
+    &__image {
+      border-radius: 190px;
+    }
+    &__name-comment {
+      display: flex;
+      flex-direction: column;
+      padding-left: 11px;
+      justify-content: center;
+      &__name {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #1b1c1e;
+      }
+      &__comment {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #858688;
+      }
+    }
+  }
+  &__body-middle {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    &__paragraph {
+      width: 155px;
+      height: 58px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 19px;
+
+      color: #5b5c5e;
+    }
+    &__image {
+      padding-right: 16px;
+      img {
+        width: 62px;
+        height: 60px;
+        border-radius: 10px;
+      }
+    }
+  }
+  &__body-last {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    &__paragraph {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 19px;
+  
+
+      color: #858688;
+    }
+    &__images-group {
+      &__image {
+        padding-right: 6px;
+      }
+    }
+  }
+}

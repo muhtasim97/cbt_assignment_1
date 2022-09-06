@@ -1,0 +1,52 @@
+@import "../../styles/main.scss";
+.p-sidebar {
+  width: 294px;
+  height: 637px;
+
+  /* White */
+
+  background: #FFFFFF;;
+  border-radius: 10px;
+  &__header-post {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    &__header-1 {
+      &__header {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: 20px;
+
+        color: #1b1c1e;
+      }
+    }
+    &__add-post {
+      &__link {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        text-decoration-line: underline;
+        margin-right: 20px;
+
+        color: #0caf60;
+      }
+    }
+  }
+  &__header-2 {
+    &__header {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+
+      margin-left: 20px;
+      color: #1b1c1e;
+    }
+  }
+}

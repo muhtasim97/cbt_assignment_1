@@ -1,0 +1,88 @@
+@import "../../styles/main.scss";
+
+.p-post-card {
+    display: flex;
+
+  &__header-image {
+    width: 58px;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    margin-left: 20px;
+    &__image {
+      border-radius: 10px;
+    }
+  }
+  &__body {
+    &__header-more {
+        // position: relative;
+        display: flex;
+        margin-top: 27px;
+        width: 180px;
+        justify-content: space-between;
+        margin-left: 12px;
+        align-items: center;
+      &__header {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+       
+        color: #1b1c1e;
+      }
+      &__more{
+        
+      }
+     
+    }
+    &__extended{
+        display: flex;
+        &__label-platform {
+            margin-left: 12px;
+            &__label {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 10px;
+              line-height: 12px;
+      
+              color: #858688;
+            }
+            &__platform {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 15px;
+      
+              color: #1b1c1e;
+            }
+          }
+          &__label-date {
+            margin-left: 26px;
+            &__label {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 10px;
+              line-height: 12px;
+      
+              color: #858688;
+            }
+            &__date {
+              font-family: "Inter";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 15px;
+      
+              color: #1b1c1e;
+            }
+          }
+    }
+  
+  }
+}

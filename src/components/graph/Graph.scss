@@ -1,0 +1,55 @@
+@import "../../styles/main.scss";
+
+.p-graph {
+  min-width: 816px;
+  min-height: 338px;
+  margin-top: 30px;
+
+  background: #ffffff;
+  border-radius: 10px;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    &__text {
+      font-family: "Inter";
+      font-size: 21px;
+      font-weight: 500;
+      line-height: 25px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-top: 26px;
+      margin-left: 30px;
+    }
+    &__month {
+      display: flex;
+      justify-content: space-between;
+      min-width: 110px;
+      min-height: 42px;
+      align-items: center;
+
+      background: #ffffff;
+      border: 1px solid rgba(133, 134, 136, 0.16);
+      border-radius: 10px;
+
+      margin-top: 17px;
+      margin-right: 23px;
+      &__text {
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #858688;
+
+        margin-left: 10px;
+        
+      }
+      &__image {
+        width: 12.83px;
+        height: 7.01px;
+        margin-right: 10px;
+      }
+    }
+  }
+}

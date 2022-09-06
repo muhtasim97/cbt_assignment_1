@@ -1,0 +1,78 @@
+@import "../../styles/main.scss";
+.p-sidenav {
+  height: 979px;
+  width: 220px;
+  background-color: #1b1c1e;
+
+  &__logo {
+    display: flex;
+    padding-top: 39px;
+    padding-left: 30px;
+    padding-right: 76px;
+    padding-bottom: 64px;
+    align-items: center;
+    &__image {
+      height: 30px;
+      width: 30px;
+    }
+    &__text {
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28.64px;
+      margin-left: 10px;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    &__items {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      width: 160px;
+      height: 40px;
+     
+      &__image {
+        display: flex;
+        align-items: center;
+        height: 24px!important;
+        width: 24px!important;
+        color: #ffffff;
+        margin-left: 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+      &__text {
+        height: 73px;
+        width: 19px;
+        color: #5b5c5e;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19.36px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+      }
+      &:nth-last-child(1) {
+        margin-top: 375px;
+      }
+      &:hover{
+          cursor: pointer;
+          background: #323335;
+          border-radius: 6px;
+          .p-sidenav__list__items__text{
+              color: #ffffff;
+          }
+          path{
+              stroke: #ffffff;
+          }
+      }
+      
+    }
+  }
+
+  
+}
